@@ -50,8 +50,8 @@ function App() {
       </p>
       <div className={`content ${plan === 2 ? "coffee" : ""}`}>
         <div className='plans'>
-          <a onClick={() => refresh(1)} className={plan == 1 && "selected"}>🔥</a>
-          <a onClick={() => refresh(2)} className={plan == 2 && "selected"}>☕️</a>
+          <a onClick={() => refresh(1)} className={plan == 1 ? "selected" : ""}>🔥</a>
+          <a onClick={() => refresh(2)} className={plan == 2 ? "selected" : ""}>☕️</a>
         </div>
         <div className='time'>
           {String(minute).padStart(2, "0")}:{String(second).padStart(2, "0")}
