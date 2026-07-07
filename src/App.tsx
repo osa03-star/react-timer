@@ -17,7 +17,7 @@ function App() {
     if(newPlan == 1){
       setTime(25 * 60)
     }else{
-      setTime(1 * 60)
+      setTime(5 * 60)
     }
     setIsRunning(false)
   }
