@@ -1,0 +1,57 @@
+.description{
+  margin-bottom: 4%;
+}
+.content{
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  border: 10px solid transparent;
+  border-radius: 16px;
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, #ff8c00, #ffb300, #ffd54f) border-box;
+  padding: 2%;
+}
+.coffee{
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, #023c29, #2a8262, #4fffc7) border-box;
+}
+.plans{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+  font-size: 30px;
+  margin-bottom: 10%;
+}
+.plans a{
+  cursor: pointer;
+}
+.time{
+  font-size: 100px;
+  margin-bottom: 10%;
+}
+.selected{
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 2%;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+  font-size: 30px;
+}
+.button svg{
+  width: 70%;
+}
+.button div{
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 1%;
+  color: #fff;
+  background-color: gray;
+}
